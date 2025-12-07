@@ -24,7 +24,7 @@ const PRODUCTS = [
     /* ===== Outros ===== */
 
     {id:14,title:'Como ganhar dinheiro na internet do zero',category:'Outros',price:'R$47,00',desc:'Aprenda estratégias simples e práticas para mudar sua mente, eliminar hábitos ruins e criar disciplina. Um guia rápido para transformar sua rotina e evoluir todos os dias.',thumb:'https://i.postimg.cc/FHVC4SLG/livro.png',affiliate:'https://pay.kiwify.com.br/6UyPJ0n'},
-    {id:14,title:'Pacote RocketMarketDigital',category:'Outros',price:'R$49,90',desc:'(PROMOÇÃO FIM DE ANO) Tenha acesso vitalício de todos os produtos e sistemas faz lucrar no automático de até 100 clientes por dia.',thumb:'https://i.postimg.cc/JzgJQw5G/marca2.png',affiliate:'https://pay.kiwify.com.br/iic9l8i'},
+    {id:15,title:'Pacote RocketMarketDigital',category:'Outros',price:'R$49,90',desc:'(PROMOÇÃO FIM DE ANO) Tenha acesso vitalício de todos os produtos e sistemas faz lucrar no automático de até 100 clientes por dia.',thumb:'https://i.postimg.cc/JzgJQw5G/marca2.png',affiliate:'https://pay.kiwify.com.br/iic9l8i'},
 ];
 
 
