@@ -17,13 +17,14 @@ const PRODUCTS = [
 
   {id:12,title:'Guia para Pets',category:'Pets',price:'R$19,90',desc:'Guia completo para cuidar de cães e gatos: alimentação, higiene, exercícios, saúde e bem-estar. Dicas práticas para pets felizes e saudáveis!',thumb:'https://i.postimg.cc/7PGcjfYf/Capa.png',affiliate:'https://pay.kiwify.com.br/uFgS5TP'},
 
-    /* ===== Outros ===== */
-
-    {id:13,title:'Como ganhar dinheiro na internet do zero',category:'Outros',price:'R$47,00',desc:'Aprenda estratégias simples e práticas para mudar sua mente, eliminar hábitos ruins e criar disciplina. Um guia rápido para transformar sua rotina e evoluir todos os dias.',thumb:'https://i.postimg.cc/FHVC4SLG/livro.png',affiliate:'https://pay.kiwify.com.br/6UyPJ0n'},
-
     /* ===== Receitas ===== */
 
     {id:13,title:'Sobremesas Rápida',category:'Receitas',price:'R$9,90',desc:'Sobremesas rápidas, práticas e deliciosas. Receitas simples para adoçar seu dia em poucos minutos.',thumb:'https://i.postimg.cc/YSw414nD/Chat-GPT-Image-7-de-dez-de-2025-01-16-49.png',affiliate:'https://pay.kiwify.com.br/diRUCfT'},
+
+    /* ===== Outros ===== */
+
+    {id:14,title:'Como ganhar dinheiro na internet do zero',category:'Outros',price:'R$47,00',desc:'Aprenda estratégias simples e práticas para mudar sua mente, eliminar hábitos ruins e criar disciplina. Um guia rápido para transformar sua rotina e evoluir todos os dias.',thumb:'https://i.postimg.cc/FHVC4SLG/livro.png',affiliate:'https://pay.kiwify.com.br/6UyPJ0n'},
+    {id:14,title:'Pacote RocketMarketDigital',category:'Outros',price:'R$49,90',desc:'(PROMOÇÃO FIM DE ANO) Tenha acesso vitalício de todos os produtos e sistemas faz lucrar no automático de até 100 clientes por dia.',thumb:'https://i.postimg.cc/JzgJQw5G/marca2.png',affiliate:'https://pay.kiwify.com.br/iic9l8i'},
 ];
 
 
