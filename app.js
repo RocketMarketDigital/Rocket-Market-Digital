@@ -1,30 +1,7 @@
 /* ========== DADOS INICIAIS - substitua affiliate pelos links da Kiwify ========== */
 const PRODUCTS = [
   /* ===== TEMPLATES ===== */
-  {id:1,title:'E-book Alimento Saudável',category:'Saúde',price:'R$19,90',desc:'Descubra como transformar sua alimentação com dicas práticas, receitas nutritivas e escolhas saudáveis para o dia a dia.',thumb:'https://i.postimg.cc/3xSqMn3C/Alimentacao-saudavel.png',affiliate:'https://pay.kiwify.com.br/mbVmaUR'},
-  {id:2,title:'Bem-Estar Feminino',category:'Saúde',price:'R$19,90',desc:'Guia completo para o bem-estar da mulher: cuidados com corpo, mente e emoções para uma vida equilibrada e saudável.',thumb:'https://i.postimg.cc/bJQLvTfW/bemestar-feminino.png',affiliate:'https://pay.kiwify.com.br/nOhholR'},
-  {id:3,title:'Estilo de vida saudável e minimalista',category:'Saúde',price:'R$19,90',desc:'Aprenda a viver de forma simples e saudável, combinando hábitos equilibrados, organização e bem-estar no dia a dia.',thumb:'https://i.postimg.cc/sX99zg57/estilo-de-vida.png',affiliate:'https://pay.kiwify.com.br/eODiYxy'},
-  {id:4,title:'Fitness e performance',category:'Saúde',price:'R$19,90',desc:'Aprenda estratégias de treino, nutrição e hábitos para melhorar sua performance física e alcançar resultados reais.',thumb:'https://i.postimg.cc/KjjKWGf1/fitness.png',affiliate:'https://pay.kiwify.com.br/Yz8SXdc'},
-  {id:5,title:'Longevidade e saúde preventiva',category:'Saúde',price:'R$19,90',desc:'Descubra hábitos, dicas e estratégias para viver mais e melhor, cuidando da saúde antes que os problemas apareçam.',thumb:'https://i.postimg.cc/1zy3TR5Q/longividade.png',affiliate:'https://pay.kiwify.com.br/7LADysl'},
-  {id:6,title:'Nutrição para públicos específicos',category:'Saúde',price:'R$19,90',desc:'Guia completo de nutrição adaptada a diferentes necessidades, oferecendo dicas e planos para cada público de forma personalizada.',thumb:'https://i.postimg.cc/Xv2BkBcV/nutricao.png',affiliate:'https://pay.kiwify.com.br/8gDvM7e'},
-  {id:7,title:'Saúde mental e emocional',category:'Saúde',price:'R$19,90',desc:'Descubra técnicas e hábitos para cuidar da mente, equilibrar emoções e viver de forma mais plena e saudável.',thumb:'https://i.postimg.cc/1tnX0C3G/Gemini-Generated-Image-xlee36xlee36xlee.png',affiliate:'https://pay.kiwify.com.br/pb30zMU'},
-  {id:8,title:'Saúde natural e terapias',category:'Saúde',price:'R$19,90',desc:'Explore métodos naturais e terapias alternativas para melhorar a saúde, equilibrar corpo e mente de forma segura e eficaz.',thumb:'https://i.postimg.cc/B6KZPjmM/saudenatural.png',affiliate:'https://pay.kiwify.com.br/A8xLgy6'},
-  {id:9,title:'Pare de Fumar ainda esse Mês',category:'Saúde',price:'R$19,90',desc:'Este e-book foi feito especialmente para você! Em Como Parar de Fumar Ainda Este Mês você vai descobrir estratégias práticas, simples e comprovadas para abandonar o cigarro de forma definitiva — sem sofrimento e sem precisar de medicamentos caros.',thumb:'https://i.postimg.cc/xCvDSMx0/paradefumar.png',affiliate:'https://pay.kiwify.com.br/nRam2vz'},
-  {id:10,title:'120 Receitas Caseiras gerais',category:'Saúde',price:'R$19,90',desc:'O e-book 120 Receitas Caseiras de Saúde Gerais traz soluções naturais e eficazes para fortalecer a imunidade, aliviar dores, melhorar o sono e cuidar do corpo com ingredientes simples do dia a dia. Prático, completo e fácil de usar — seu guia natural de bem-estar!',thumb:'https://i.postimg.cc/3x4qT2Nm/120receitas.png',affiliate:'https://pay.kiwify.com.br/ybE9ISE'},
-  {id:11,title:'Emagreça em poucos dias',category:'Saúde',price:'R$19,90',desc:'Aqui você vai descobrir estratégias simples para desinchar, acelerar o metabolismo, aumentar energia e controlar a mente. Transforme seu corpo e sua rotina com passos que realmente funcionam!',thumb:'https://i.postimg.cc/TwC0mPhw/emagrecimento.png',affiliate:'https://pay.kiwify.com.br/mUh5XPG'},
-
-  /* ===== PETS ===== */
-
-  {id:12,title:'Guia para Pets',category:'Pets',price:'R$19,90',desc:'Guia completo para cuidar de cães e gatos: alimentação, higiene, exercícios, saúde e bem-estar. Dicas práticas para pets felizes e saudáveis!',thumb:'https://i.postimg.cc/7PGcjfYf/Capa.png',affiliate:'https://pay.kiwify.com.br/uFgS5TP'},
-
-    /* ===== Receitas ===== */
-
-    {id:13,title:'Sobremesas Rápida',category:'Receitas',price:'R$9,90',desc:'Sobremesas rápidas, práticas e deliciosas. Receitas simples para adoçar seu dia em poucos minutos.',thumb:'https://i.postimg.cc/YSw414nD/Chat-GPT-Image-7-de-dez-de-2025-01-16-49.png',affiliate:'https://pay.kiwify.com.br/diRUCfT'},
-
-    /* ===== Outros ===== */
-
-    {id:14,title:'Como ganhar dinheiro na internet do zero',category:'Outros',price:'R$47,00',desc:'Aprenda estratégias simples e práticas para mudar sua mente, eliminar hábitos ruins e criar disciplina. Um guia rápido para transformar sua rotina e evoluir todos os dias.',thumb:'https://i.postimg.cc/FHVC4SLG/livro.png',affiliate:'https://pay.kiwify.com.br/6UyPJ0n'},
-    {id:15,title:'Pacote RocketMarketDigital',category:'Outros',price:'R$49,90',desc:'(PROMOÇÃO FIM DE ANO) Tenha acesso vitalício de todos os produtos e sistemas faz lucrar no automático de até 100 clientes por dia.',thumb:'https://i.postimg.cc/JzgJQw5G/marca2.png',affiliate:'https://pay.kiwify.com.br/iic9l8i'},
+    {id:1,title:'Pacote RocketMarketDigital',category:'Outros',price:'R$49,90',desc:'(PROMOÇÃO FIM DE ANO) Tenha acesso vitalício de todos os produtos e sistemas faz lucrar no automático de até 100 clientes por dia.',thumb:'https://i.postimg.cc/JzgJQw5G/marca2.png',affiliate:'https://pay.kiwify.com.br/iic9l8i'},
 ];
 
 
